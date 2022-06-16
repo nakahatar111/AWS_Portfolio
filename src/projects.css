@@ -1,0 +1,5 @@
+.box:hover{
+  background-color: #579ade;
+  transform: scale(.85);
+  transition: transform 0.5s, background-color 1s;
+}

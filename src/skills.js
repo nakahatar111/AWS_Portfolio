@@ -1,4 +1,5 @@
 import React from 'react';
+import './skills.css';
 
 function Skills() {
   return (<React.Fragment>
@@ -8,10 +9,10 @@ function Skills() {
           <p style={{fontSize:'20px', fontWeight:'100'}}>Below are some of my skills, and I'm always looking to learn more.</p>
         </div>
         <div className='d-flex flex-wrap text-center text-white align-content-stretch justify-content-center my-5' style={{height:'auto', maxWidth:'1300px'}}>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="Deep Learning"
+                src= '/icons/deep learning.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -26,28 +27,26 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="Java"
+                src= '/icons/java.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
                 color='blue'
                 />
               <h4>Java</h4>
-              <p>I have significant research experience in the field of 
-                computer vision, including Computer Vision Tools for Locating 
-                Nitrogren-Vacancy Centers. I've also created dozens of 
-                programs using libraries such as OpenCV and OpenGL these 
-                include my object tracker, collage generator, game engine, ray 
-                casting simulation, and many more.
+              <p>I have over four years of experience programming in Java, making
+                me resilient to many tasks in developing softwares. Object 
+                oriented programming in Java has been one of my expertise, and 
+                developed  
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="HPC"
+                src= '/icons/hpc.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -62,10 +61,10 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="Python"
+                src= '/icons/python.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -80,10 +79,10 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="NodeJS"
+                src= '/icons/nodejs.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -98,10 +97,10 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="React"
+                src= '/icons/react.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -116,10 +115,10 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="Cpp"
+                src= '/icons/cpp.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -134,10 +133,10 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="WebDev"
+                src= '/icons/webdev.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}
@@ -152,10 +151,10 @@ function Skills() {
                 casting simulation, and many more.
               </p>
           </div>
-          <div style={{width:'400px'}}>
+          <div className='skillbox'>
             <img
-                alt="Face"
-                src= '/BUJA.png'
+                alt="SQL"
+                src= '/icons/sql.jpg'
                 width="110"
                 height="110"
                 style={{borderRadius: "50%", margin: '20px'}}

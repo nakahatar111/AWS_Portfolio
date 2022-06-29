@@ -16,7 +16,7 @@ function App() {
         <div style={{textShadow:'black 1px 0 10px'}}>
           <img
             alt="Face"
-            src= '/me.jpg'
+            src= '/me.JPG'
             width="270"
             height="270"
             border="6px solid"
@@ -30,15 +30,19 @@ function App() {
         </div>
       </div>
 
-
       <About/>
       <Skills/>
       <Projects/>
-      <Timeline/>
       <Contact/>
 
     </div>
   );
 }
-
+/*
+<About/>
+<Skills/>
+<Projects/>
+<Timeline/>
+<Contact/>
+*/
 export default App;

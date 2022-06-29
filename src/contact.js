@@ -40,33 +40,33 @@ function Contact() {
             <h5 style={{fontSize:'17px'}}>Copyright © Ryuma Nakahata 2022</h5>
           </div>
           <div className='col-4 d-flex justify-content-center'>
-            <a href='facebook.com'>
+            <a href='https://www.facebook.com/profile.php?id=100010302573783' target='_blank' rel="noreferrer" >
               <div className='px-3'>
                 <img
                   alt="Facebook"
-                  src= '/BUJA.png'
+                  src= '/icons/facebook.jpg'
                   width="70"
                   height="70"
                   style={{borderRadius: "50%"}}
                 />
               </div>
             </a>
-            <a href='github.com'>
+            <a href='https://github.com/nakahatar111' target='_blank' rel="noreferrer">
               <div className='px-3'>
               <img
                   alt="Github"
-                  src= '/BUJA.png'
+                  src= '/icons/git.jpg'
                   width="70"
                   height="70"
                   style={{borderRadius: "50%"}}
                 />
               </div>
             </a>
-            <a href='linkedin.com'>
+            <a href='https://www.linkedin.com/in/ryuma521/' target='_blank' rel="noreferrer">
             <div className='px-3'>
               <img
                   alt="Linkedin"
-                  src= '/BUJA.png'
+                  src= '/icons/linkedin.jpg'
                   width="70"
                   height="70"
                   style={{borderRadius: "50%"}}

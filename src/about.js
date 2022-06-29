@@ -16,7 +16,7 @@ function About() {
       <a href='https://supa.syr.edu/'>
         <img
           alt=""
-          src= "/syracuse.JPG"
+          src= "/syracuse.jpg"
           width="100"
           height="100"
           className="mx-2 d-inline-block align-top"
@@ -43,9 +43,9 @@ function About() {
     </div>
     <div className='p-5 d-flex justify-content-center align-items-center' style={{minHeight: "90vh", backgroundColor: "#edeeef"}}>
       <div className='row justify-content-center align-items-center d-flex'>
-        <div className='col-3 flex-column justify-content-center align-items-center d-flex'>
+        <div className='col-3 flex-column justify-content-center align-items-center d-flex' style={{minWidth:'400px'}}>
             <img
-              alt=""
+              alt="Face"
               src= '/me.JPG'
               width="350"
               height="350"
@@ -54,33 +54,33 @@ function About() {
               className="d-inline-block align-top"
               />
             <div className='d-flex justify-content-center my-3'>
-            <a href='facebook.com'>
+            <a href='https://www.facebook.com/profile.php?id=100010302573783' target='_blank' rel="noreferrer">
               <div className='px-1'>
                 <img
                   alt="Facebook"
-                  src= '/BUJA.png'
+                  src= '/icons/facebook.jpg'
                   width="50"
                   height="50"
                   style={{borderRadius: "50%"}}
                 />
               </div>
             </a>
-            <a href='github.com'>
+            <a href='https://github.com/nakahatar111' target='_blank' rel="noreferrer">
               <div className='px-1'>
               <img
                   alt="Github"
-                  src= '/BUJA.png'
+                  src= '/icons/git.jpg'
                   width="50"
                   height="50"
                   style={{borderRadius: "50%"}}
                 />
               </div>
             </a>
-            <a href='linkedin.com'>
+            <a href='https://www.linkedin.com/in/ryuma521/' target='_blank' rel="noreferrer">
             <div className='px-1'>
               <img
                   alt="Linkedin"
-                  src= '/BUJA.png'
+                  src= '/icons/linkedin.jpg'
                   width="50"
                   height="50"
                   style={{borderRadius: "50%"}}
@@ -89,7 +89,7 @@ function About() {
             </a>
           </div>
         </div>
-        <div className='col-5' style={{fontFamily:'Lato', width:'36vw'}}>
+        <div className='col-5' style={{fontFamily:'Lato', minWidth:'00px'}}>
           <p style={{fontWeight:'550', fontSize:'26px'}}>Ryuma Nakahata</p>
           <p style={{fontWeight:'300', fontSize:'22px'}}>Binghamton '24</p>
           <p style={{fontWeight:'100', fontSize:'18px'}}>
@@ -98,14 +98,14 @@ function About() {
           </p>
           <p style={{fontWeight:'100', fontSize:'18px'}}>
             My interest includes calculus, combinatorics, web development, 
-            natural processing language, high-performance computing, machine 
-            learning, and artificial intelligence.
+            natural processing language, high-performance computing, and machine 
+            learning.
           </p>
           <h3>Binghamton University</h3>
           <ul style={{fontSize: '19px'}}>
-            <li style={{fontWeight:'550'}}>Bachelor of Art in Mathematical Science</li>
             <li style={{fontWeight:'550'}}>Bachelor of Science in Computer Science</li>
-            <li>Intent on pursuing a Master of Science in Computer Science/Artificial Intelligence</li>
+            <li style={{fontWeight:'550'}}>Bachelor of Art in Mathematical Science</li>
+            <li>Pursuing a Master of Science in Computer Science/Artificial Intelligence</li>
           </ul>
         </div>
 

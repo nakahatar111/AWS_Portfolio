@@ -1,0 +1,9 @@
+.skillbox p{
+  color: #dae4eb;
+  font-size: 18px;
+}
+
+.skillbox{
+  width: 430px;
+  padding: 30px;
+}

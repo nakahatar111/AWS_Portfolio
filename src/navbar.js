@@ -30,8 +30,8 @@ function Navbar() {
 
   const color1 = {/*text*/
     color:"#fcbc1d",
-    fontSize:"20px",
-    fontWeight: "700",
+    fontSize:"25px",
+    fontWeight: "500",
     padding: "10px 0px 0px 120px",
     fontFamily: "Montserrat",
     transition: 'font-size 0.5s, padding 0.5s'
@@ -39,7 +39,7 @@ function Navbar() {
 
   const color2 = {
     color:"#fcbc1d",
-    fontSize:"17px",
+    fontSize:"20px",
     fontWeight: "600",
     padding: "0px 0px 0px 120px",
     fontFamily: "Montserrat",
@@ -49,8 +49,8 @@ function Navbar() {
   return (
     <React.Fragment>
       <div className='row' style={(navStyle === 0 && style1) || style2}>
-        <div className='col-6'>
-          <h3 className='mt-2' style={((navStyle === 0 && color1) || color2)}>Ryuma Nakahata</h3>
+        <div className='col-6 '>
+          <h3 className='mt-2 mb-3' style={((navStyle === 0 && color1) || color2)}>Ryuma Nakahata</h3>
         </div>
         <div className='col-6 d-flex align-items-center' style={(navStyle === 0 && color1) || color2}>
           <table>
@@ -61,7 +61,7 @@ function Navbar() {
             ))}
             <th>
               <div className='p-1'>
-                <a href = '/resume.pdf' target="_blank" className='m-0 text-white' style={{textDecoration:'none', fontSize:'12px', fontWeight:'100', fontFamily: 'Montserrat', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
+                <a href = '/resume.pdf' target="_blank" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Montserrat', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
               </div>
             </th>
           </tr>

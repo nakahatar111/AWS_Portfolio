@@ -17,7 +17,7 @@ function Projects() {
               <p style={{color:'white', fontSize:'20px'}}>This is what it is</p>
             </div>
           </div>
-          <div className='box' style={{textShadow:'black 1px 0 10px', backgroundImage: "url(/nyc.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
+          <div className='box' style={{textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/Hitman.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Hitman</h1>
               <p style={{color:'white', fontSize:'20px'}}>This is what it is</p>

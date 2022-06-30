@@ -89,7 +89,7 @@ function About() {
             </a>
           </div>
         </div>
-        <div className='col-5' style={{fontFamily:'Lato', minWidth:'00px'}}>
+        <div className='col-5' style={{fontFamily:'Trebuchet MS', minWidth:'500px'}}>
           <p style={{fontWeight:'550', fontSize:'26px'}}>Ryuma Nakahata</p>
           <p style={{fontWeight:'300', fontSize:'22px'}}>Binghamton '24</p>
           <p style={{fontWeight:'100', fontSize:'18px'}}>

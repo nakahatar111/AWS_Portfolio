@@ -72,18 +72,18 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div>
+        <h2>To see more of my projects...</h2>
+        <div className='col text-center m-3'>
           <a href='https://github.com/nakahatar111' target='_blank' rel="noreferrer">
-              <div className='px-3' style={{backgroundColor:'#3A3B3B'}}>
-              Visit My Github
+            <button className='btn btn-primary px-4' style={{backgroundColor:'#3A3B3B'}}>Visit My Github
               <img
-                  alt="Github"
-                  src= '/icons/git.jpg'
-                  width="70"
-                  height="70"
-                />
-              </div>
-            </a>
+                alt="Github"
+                src= '/icons/git.jpg'
+                width="50"
+                height="50"
+              />
+            </button>
+          </a> 
         </div>
       </div>
     </React.Fragment>

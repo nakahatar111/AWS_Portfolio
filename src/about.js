@@ -90,8 +90,8 @@ function About() {
           </div>
         </div>
         <div className='col-5' style={{fontFamily:'Trebuchet MS', minWidth:'500px'}}>
-          <p style={{fontWeight:'550', fontSize:'26px'}}>Ryuma Nakahata</p>
-          <p style={{fontWeight:'300', fontSize:'22px'}}>Binghamton '24</p>
+          <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
+          <p style={{fontWeight:'550', fontSize:'22px', marginBottom:'2px'}}>Binghamton '24</p>
           <p style={{fontWeight:'100', fontSize:'18px'}}>
             I'm an undergraduate of Binghamton University, Class of 2024, 
             and I have a strong passion for Computer Science and Mathematics.
@@ -101,7 +101,8 @@ function About() {
             natural processing language, high-performance computing, and machine 
             learning.
           </p>
-          <h3>Binghamton University</h3>
+          <h4 className='pt-4 mb-1' style={{fontWeight:'550'}}>Binghamton University,</h4>
+          <h5 style={{fontWeight:'550'}}>Thomas J. Watson College of Engineering and Applied Science</h5>
           <ul style={{fontSize: '19px'}}>
             <li style={{fontWeight:'550'}}>Bachelor of Science in Computer Science</li>
             <li style={{fontWeight:'550'}}>Bachelor of Art in Mathematical Science</li>

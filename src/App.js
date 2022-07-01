@@ -4,8 +4,12 @@ import Skills from './skills';
 import Projects from './projects';
 import Timeline from './timeline';
 import Contact from './contact';
+import Modal from './modal';
+import React,{useState} from 'react';
 
 function App() {
+  const[show, setShow] = useState(0);
+
   return (
     <div className="App" style={{fontFamily:'Helvetica'}}> 
       <header className="App-header position-fixed justify-content-center" >
@@ -29,7 +33,6 @@ function App() {
           <a href='#about' className='px-5 py-3' style={{backgroundColor: "whitesmoke", borderRadius: '7px', textDecoration: 'none', color: 'black', textShadow:'none',boxShadow: "0px 0px 4px black"}}>Enter Portfolio</a>
         </div>
       </div>
-
       <About/>
       <Skills/>
       <Projects/>

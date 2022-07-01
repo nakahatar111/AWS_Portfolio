@@ -16,13 +16,13 @@ function Contact() {
         <form className='d-flex justify-content-center' style={{minHeight:'50%'}}>
           <div className='row' style={{width:'80%'}}>
             <div className='col-md-6'>
-              <div className='input-group my-4'>
+              <div className='my-4'>
                 <input className='form-control p-3' type='text' placeholder='Your Name *'></input>
               </div>
-              <div className='input-group my-4'>
+              <div className=' my-4'>
                 <input className='form-control p-3' type='text' placeholder='Your Email *'></input>
               </div>
-              <div className='input-group my-4'>
+              <div className=' my-4'>
                 <input className='form-control p-3' type='text' placeholder='Your Phone *'></input>
               </div>
             </div>
@@ -35,7 +35,7 @@ function Contact() {
           </div>
         </form>
         </div>
-        <div className='row text-center align-items-center' style={{width:'100%', height:'80px', position:'relative'}}>
+        <div className='row text-center align-items-center' style={{width:'100%', height:'80px'}}>
           <div className='col-4 px-3'>
             <h5 style={{fontSize:'17px'}}>Copyright © Ryuma Nakahata 2022</h5>
           </div>

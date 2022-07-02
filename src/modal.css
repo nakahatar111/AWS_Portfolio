@@ -30,6 +30,9 @@
 .modals-header h2{
   font-weight: bold;
 }
+.modals-header h2 a{
+  color: #fcbc1d;
+}
 
 .modals-footer{
   text-align: center;

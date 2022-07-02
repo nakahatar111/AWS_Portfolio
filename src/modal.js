@@ -12,13 +12,13 @@ function Modal(props) {
       <div className="modals-container border border-secondary">
         {props.show ===1 && <div className="modals-content">
           <div className="modals-header">
-            <h2><a href='https://master.d1hhzdy6th1z7w.amplifyapp.com/' target={'_blank'}>TextNet</a> - Chat Application</h2>
+            <h2><a href='https://master.d1hhzdy6th1z7w.amplifyapp.com/' target={'_blank'} rel="noreferrer">TextNet</a> - Chat Application</h2>
           </div>
           <div className="modals-body">
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button className='btn btn-secondary mt-3 ' aria-label="menu" onClick={props.onClose}><span>&times;</span> Close Project</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -30,7 +30,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -42,7 +42,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -54,7 +54,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -63,10 +63,10 @@ function Modal(props) {
             <h2>Convolutional Neural Network</h2>
           </div>
           <div className="modals-body">
-            Project description coming soon!
+            Building a convolutional neural network from scratch on Python using NumPy
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -78,7 +78,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -90,7 +90,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -102,7 +102,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -114,7 +114,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
 
@@ -126,7 +126,7 @@ function Modal(props) {
             Project description coming soon!
           </div>
           <div className="modals-footer">
-            <button onClick={props.onClose}>Close</button>
+            <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
         

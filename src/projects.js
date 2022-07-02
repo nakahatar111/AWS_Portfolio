@@ -18,13 +18,13 @@ function Projects() {
           <div className='box' onClick={()=>setShow(1)} style={{cursor:'pointer', textShadow:'black 0px 0 15px', backgroundImage: "url(/projects/textnet.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>TextNet</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Chat Application hosted on AWS Amplify and its webserver on AWS EC2</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(2)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/Hitman.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Hitman</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Registration Webpage that hosts a browser game built using a JS framework called Phaser3</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(3)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/imageGenerator.jpeg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
@@ -42,7 +42,7 @@ function Projects() {
           <div className='box' onClick={()=>setShow(5)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/cnn.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Convolutional Neural Network</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Building a convolutional neural network from scratch on Python using NumPy</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(6)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/MMNN.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>

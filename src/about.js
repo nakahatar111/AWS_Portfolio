@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
   <React.Fragment>
-    <div id= 'about' className='my-2 d-flex justify-content-center justify-content-evenly align-items-center flex-wrap' style={{height:'10vh', minHeight:'100px'}}>
+    <div id= 'about' className='my-2 d-flex justify-content-center justify-content-evenly align-items-center flex-wrap' style={{height:'auto'}}>
       <a href='https://www.binghamton.edu/'>
         <img
           alt=""
@@ -43,12 +43,12 @@ function About() {
     </div>
     <div className='p-5 d-flex justify-content-center align-items-center' style={{minHeight: "90vh", backgroundColor: "#edeeef"}}>
       <div className='row justify-content-center align-items-center d-flex'>
-        <div className='col-3 flex-column justify-content-center align-items-center d-flex' style={{minWidth:'400px'}}>
+        <div className='col-3 flex-column justify-content-center align-items-center d-flex' style={{minWidth:'400px', maxHeight:'800px'}}>
             <img
               alt="Face"
               src= '/me.JPG'
-              width="350"
-              height="350"
+              width="300"
+              height="300"
               border="6px solid"
               style={{borderRadius: "50%"}}
               className="d-inline-block align-top"
@@ -89,33 +89,32 @@ function About() {
             </a>
           </div>
         </div>
-        <div className='col-5' style={{fontFamily:'Trebuchet MS', minWidth:'500px'}}>
+        <div className='col-5' style={{fontFamily:'Trebuchet MS', minWidth:'400px'}}>
           <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
           <p style={{fontWeight:'550', fontSize:'22px', marginBottom:'2px'}}>Binghamton '24</p>
-          <p style={{fontWeight:'100', fontSize:'18px'}}>
+          <p style={{fontWeight:'lighter', fontSize:'18px'}}>
             I'm an undergraduate of Binghamton University, Class of 2024, 
             and I have a strong passion for Computer Science and Mathematics.
           </p>
-          <p style={{fontWeight:'100', fontSize:'18px'}}>
+          <p style={{fontWeight:'lighter', fontSize:'18px'}}>
             My interest includes calculus, combinatorics, web development, 
             natural processing language, high-performance computing, and machine 
             learning.
           </p>
-          <h4 className='pt-4 mb-1' style={{fontWeight:'550'}}>Binghamton University,</h4>
-          <h5 style={{fontWeight:'550'}}>Thomas J. Watson College of Engineering and Applied Science</h5>
-          <ul style={{fontSize: '19px'}}>
-            <li style={{fontWeight:'550'}}>Bachelor of Science in Computer Science</li>
-            <li style={{fontWeight:'550'}}>Bachelor of Art in Mathematical Science</li>
-            <li>Pursuing a Master of Science in Computer Science/Artificial Intelligence</li>
+          <h4 className='pt-4 mb-1' style={{fontWeight:'bolder'}}>Binghamton University,</h4>
+          <h5 style={{fontWeight:'bolder'}}>Thomas J. Watson College of Engineering and Applied Science</h5>
+          <ul style={{fontSize: '19px', fontWeight:'lighter'}}>
+            <li style={{fontWeight:'bold'}}>Bachelor of Science in Computer Science</li>
+            <li style={{fontWeight:'bold'}}>Bachelor of Art in Mathematical Science</li>
+            <li style={{fontWeight:'lighter'}}>Pursuing a Master of Science in Computer Science/Artificial Intelligence</li>
           </ul>
         </div>
 
         <div className='row text-center' style={{paddingTop:'20px'}}>
           <h1>Learn more about my:</h1>
-          <div className='my-4'>
+          <div className='d-flex flex-wrap justify-content-center my-4'>
             <a href='#about' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Skills</a>
-            <a href='#about' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
-            <a href='#about' className='px-3 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Work Experience</a>
+            <a href='#skills' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
             <a href='#about' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Resume</a>
           </div>
         </div>

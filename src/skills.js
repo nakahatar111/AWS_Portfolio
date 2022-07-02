@@ -46,8 +46,8 @@ function Skills() {
               developed a
               <span className='highlight'> Binary-Text File converter</span>,
               <span className='highlight'> Shortest Path Finder of Weighted Graph</span>, 
-              <span className='highlight'>Banking Systems</span>, 
-              <span className='highlight'>etc</span>.
+              <span className='highlight'> Banking Systems</span>, 
+              <span className='highlight'> etc</span>.
               </p>
           </div>
           <div className='skillbox'>
@@ -65,7 +65,7 @@ function Skills() {
               with<span className='highlight'> multiple threads </span>to 
               distribute computational tasks among these threads using 
               <span className='highlight'> OpenMD</span>, 
-              <span className='highlight'>mutexes</span>, and 
+              <span className='highlight'> mutexes</span>, and 
               <span className='highlight'> conditional variables</span>.
               </p>
           </div>
@@ -85,7 +85,7 @@ function Skills() {
                 <span className='highlight'> Pandas</span>,
                 <span className='highlight'> NLTK</span>,
                 <span className='highlight'> NumPy</span>, and 
-                <span className='highlight'>TensorFlow</span>
+                <span className='highlight'> TensorFlow</span>
                 , through my research, coursework, and personal projects. 
               </p>
           </div>
@@ -101,11 +101,11 @@ function Skills() {
               <h4>Node JS</h4>
               <p>I have experience in Node.js and its modules through building 
                 many <span className='highlight'>static</span> and 
-                <span className='highlight'>dynamic webpages</span>, including 
-                <span className='highlight'>Express</span>, 
-                <span className='highlight'>Cors</span>, 
-                <span className='highlight'>MySQL</span>, and 
-                <span className='highlight'>Bcrypt</span>.
+                <span className='highlight'> dynamic webpages</span>, including 
+                <span className='highlight'> Express</span>, 
+                <span className='highlight'> Cors</span>, 
+                <span className='highlight'> MySQL</span>, and 
+                <span className='highlight'> Bcrypt</span>.
               </p>
           </div>
           <div className='skillbox'>
@@ -119,12 +119,12 @@ function Skills() {
                 />
               <h4>React</h4>
               <p>I have extensive experience in using React for both 
-                <span className='highlight'>functional</span> and 
-                <span className='highlight'>class-based component programming
+                <span className='highlight'> functional</span> and 
+                <span className='highlight'> class-based component programming
                 </span>. Over the past <span className='highlight'>two years</span>
-                , I have developed a <span className='highlight'>static portfolio webpage</span> 
+                , I have developed a <span className='highlight'>static portfolio webpage </span> 
                 and a <span className='highlight'>dynamic social media webpage</span> using 
-                <span className='highlight'>MySQL</span>.
+                <span className='highlight'> MySQL</span>.
               </p>
           </div>
           <div className='skillbox'>

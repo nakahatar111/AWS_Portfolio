@@ -113,9 +113,9 @@ function About() {
         <div className='row text-center' style={{paddingTop:'20px'}}>
           <h1>Learn more about my:</h1>
           <div className='d-flex flex-wrap justify-content-center my-4'>
-            <a href='#about' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Skills</a>
-            <a href='#skills' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
-            <a href='#about' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Resume</a>
+            <a href='#skills' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Skills</a>
+            <a href='#projects' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
+            <a href = '/resume.pdf' target="_blank" className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Resume</a>
           </div>
         </div>
       </div>

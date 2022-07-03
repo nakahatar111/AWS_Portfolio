@@ -13,7 +13,7 @@ function App() {
         <Navbar/>
       </header>
       <div className='d-flex align-items-center text-center justify-content-center align-content-center align-items-center' 
-      style={{height: "100vh", backgroundImage: "url(/nyc.jpg)", backgroundSize: 'cover', backgroundAttachment: "fixed", backgroundPositionY: "0px", backgroundRepeat: "no-repeat"}}>
+      style={{height: "100vh", backgroundImage: "url(/nyc.jpg)", backgroundSize: 'auto 100%', backgroundAttachment: "fixed", backgroundPositionY: "0px"}}>
         <div style={{textShadow:'black 1px 0 10px'}}>
           <img
             alt="Face"

@@ -27,7 +27,7 @@ function Projects() {
               <p style={{color:'white', fontSize:'20px'}}>Registration Webpage that hosts a browser game built using a JS framework called Phaser3</p>
             </div>
           </div>
-          <div className='box' onClick={()=>setShow(3)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/imageGenerator.jpeg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
+          <div className='box' onClick={()=>setShow(3)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/imageGenerator.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Network Visualization</h1>
               <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>

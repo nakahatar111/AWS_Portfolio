@@ -54,12 +54,12 @@ function Navbar() {
 
   return (
     <React.Fragment>
-      <div className='row' style={(navStyle === 0 && style1) || style2}>
+      <div className='row' style={((navStyle === 0 && navMenu === false) && style1) || style2}>
         <div className='col-5' style={{minWidth:'270px'}}>
-          <h3 className='mt-2 mb-3' style={((navStyle === 0 && color1) || color2)}>Ryuma Nakahata</h3>
+          <h3 className='mt-2 mb-3' style={(((navStyle === 0 && navMenu === false) && color1) || color2)}>Ryuma Nakahata</h3>
         </div>
-        <div className='col-3 col-sm-6 d-flex justify-content-end' style={(navStyle === 0 && color1) || color2}>
-          <button className='navMenu border' onClick={()=>setNavMenu(true)}>Menu &equiv;</button>
+        <div className='col-3 col-sm-6 d-flex justify-content-end' style={((navStyle === 0 && navMenu === false) && color1) || color2}>
+          <button className='navMenu' onClick={()=>navMenu ? setNavMenu(false) : setNavMenu(true)}>Menu &equiv;</button>
           <table>
           <tbody className='navElt'>
           <tr>
@@ -75,7 +75,26 @@ function Navbar() {
           </tbody>
           </table>
         </div>
-        
+        {navMenu && <div className='d-flex row m-0 pb-3' style={{paddingLeft:'25px'}}>
+          <div className='dropdown'>
+            <a href='#about' onClick={()=>setNavMenu(false)}>ABOUT</a>
+          </div>
+          <div className='dropdown'>
+            <a href='#skills' onClick={()=>setNavMenu(false)}>SKILLS</a>
+          </div>
+          <div className='dropdown'>
+            <a href='#projects' onClick={()=>setNavMenu(false)}>PROJECTS</a>
+          </div>
+          <div className='dropdown'>
+            <a href='#timeline' onClick={()=>setNavMenu(false)}>TIMELINE</a>
+          </div>
+          <div className='dropdown'>
+            <a href='#contact' onClick={()=>setNavMenu(false)}>CONTACT</a>
+          </div>
+          <div className='dropdown'>
+            <a href='#contact' onClick={()=>setNavMenu(false)}>RESUME</a>
+          </div>
+        </div>}
       </div>
     </React.Fragment>
   );

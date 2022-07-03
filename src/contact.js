@@ -6,7 +6,7 @@ function Contact() {
       <div style={{minHeight:'85vh', width:'100%', backgroundColor:'gray', backgroundPosition: 'center', backgroundImage: "url(/map.png)", backgroundSize: 'fit', backgroundRepeat: "no-repeat"}}>
         <div className='text-center text-white' style={{height:'150px', marginTop:'100px',textShadow:'black 1px 0 10px'}}>
           <h1 style={{fontSize:'40px', fontWeight:'650'}}>Contact Me</h1>
-          <div style={{fontSize:'23px', fontWeight:'600'}}>
+          <div style={{fontSize:'21px', fontWeight:'600'}}>
             <span>Email: </span>
             <a style={{color:'#fcbc1d', textDecoration:'none',fontWeight:'300'}} href='mailto:rnakaha2@binghamton.edu'>rnakaha2@binghamton.edu</a> || <a style={{color:'#fcbc1d', textDecoration:'none',fontWeight:'300'}} href='mailto:nakahataryuma@gmail.com'>nakahataryuma@gmail.com</a>
             <br/>
@@ -36,7 +36,7 @@ function Contact() {
         </form>
         </div>
         <div className='row text-center align-items-center' style={{width:'100%', height:'80px'}}>
-          <div className='col-4 px-3'>
+          <div className='col-4 px-3' style={{minWidth:'140px'}}>
             <h5 style={{fontSize:'17px'}}>Copyright © Ryuma Nakahata 2022</h5>
           </div>
           <div className='col-4 d-flex justify-content-center my-3'>

@@ -9,7 +9,7 @@ function Projects() {
     <React.Fragment>
 
       <div id = 'projects' className='d-flex flex-column align-items-center' style={{minHeight: "100vh", backgroundColor:'#edeeef'}}>
-        <div className='text-center' style={{height:'150px', marginTop:'100px'}}>
+        <div className='text-center' style={{height:'auto', marginTop:'100px'}}>
           <h1 style={{fontSize:'20px', fontWeight:'650', color:'#fcbc1d'}}>Portfolio</h1>
           <h1 style={{fontSize:'50px', fontWeight:'650'}}>Personal Projects</h1>
           <p style={{fontSize:'20px', fontWeight:'100'}}>Here you can see some of the projects I've done on my own time.</p>
@@ -30,13 +30,13 @@ function Projects() {
           <div className='box' onClick={()=>setShow(3)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/imageGenerator.jpeg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Network Visualization</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(4)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/sentimentAnalysis.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Sentiment Text Analysis</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(5)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/cnn.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
@@ -48,31 +48,31 @@ function Projects() {
           <div className='box' onClick={()=>setShow(6)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/MMNN.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Multi-Layer Fully Connected Neural Network</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(7)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/twoLayer.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Two Layer Neural Network</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(8)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/tournament.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Object-Oriented League Tournament</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(9)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/libraryGUI.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Library Checkout GUI</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(10)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/Converter.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Binary-Text Converter</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon!</p>
+              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
             </div>
           </div>
         </div>

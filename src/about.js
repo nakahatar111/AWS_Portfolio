@@ -43,14 +43,12 @@ function About() {
     </div>
     <div className='p-5 d-flex justify-content-center align-items-center' style={{minHeight: "90vh", backgroundColor: "#edeeef"}}>
       <div className='row justify-content-center align-items-center d-flex'>
-        <div className='col-3 flex-column justify-content-center align-items-center d-flex' style={{minWidth:'400px', maxHeight:'800px'}}>
+        <div className='flex-column justify-content-center align-items-center d-flex' style={{maxWidth:'320px', maxHeight:'800px'}}>
             <img
               alt="Face"
               src= '/me.JPG'
-              width="300"
-              height="300"
               border="6px solid"
-              style={{borderRadius: "50%"}}
+              style={{borderRadius: "50%", maxWidth:'100%', height:'auto'}}
               className="d-inline-block align-top"
               />
             <div className='d-flex justify-content-center my-3'>
@@ -89,7 +87,7 @@ function About() {
             </a>
           </div>
         </div>
-        <div className='col-5' style={{fontFamily:'Trebuchet MS', minWidth:'400px'}}>
+        <div style={{fontFamily:'Trebuchet MS', maxWidth:'700px'}}>
           <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
           <p style={{fontWeight:'550', fontSize:'22px', marginBottom:'2px'}}>Binghamton '24</p>
           <p style={{fontWeight:'lighter', fontSize:'18px'}}>

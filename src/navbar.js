@@ -22,14 +22,16 @@ function Navbar() {
     width: "100vw",
     backgroundColor: "transparent",
     padding: "0px 0px 0px 0px",
-    transition: 'background-color 0.5s, padding 0.5s'
+    transition: 'background-color 0.5s, padding 0.5s',
+    minWidth: "390px"
   };
 
   const style2 = {
     width: "100vw",
     backgroundColor: "#212529",  
     padding: "0px 0px 0px 0px",
-    transition: 'background-color 0.5s, padding 0.5s'
+    transition: 'background-color 0.5s, padding 0.5s',
+    minWidth: "390px"
   };
 
   const color1 = {/*text*/
@@ -53,11 +55,11 @@ function Navbar() {
   return (
     <React.Fragment>
       <div className='row' style={(navStyle === 0 && style1) || style2}>
-        <div className='col-5' style={{minWidth:'280px'}}>
+        <div className='col-5' style={{minWidth:'270px'}}>
           <h3 className='mt-2 mb-3' style={((navStyle === 0 && color1) || color2)}>Ryuma Nakahata</h3>
         </div>
-        <div className='col-4 col-sm-6 d-flex justify-content-end' style={(navStyle === 0 && color1) || color2}>
-          <button className='navMenu border border-primary' onClick={()=>setNavMenu(true)}>Menu &equiv;</button>
+        <div className='col-3 col-sm-6 d-flex justify-content-end' style={(navStyle === 0 && color1) || color2}>
+          <button className='navMenu border' onClick={()=>setNavMenu(true)}>Menu &equiv;</button>
           <table>
           <tbody className='navElt'>
           <tr>

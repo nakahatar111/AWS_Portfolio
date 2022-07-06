@@ -12,10 +12,17 @@ function Modal(props) {
       <div className="modals-container border border-secondary">
         {props.show ===1 && <div className="modals-content">
           <div className="modals-header">
-            <h2><a href='https://master.d1hhzdy6th1z7w.amplifyapp.com/' target={'_blank'} rel="noreferrer">TextNet</a> - Chat Application</h2>
+            <h2><a href='https://www.mytextnet.com/' target={'_blank'} rel="noreferrer">TextNet</a> - Chat Application</h2>
           </div>
           <div className="modals-body">
-            Project description coming soon!
+            <p style={{fontWeight:'lighter', fontSize:'15px'}}>Chat Application hosted on AWS Amplify and its webserver on AWS EC2.
+            Developed group and one-to-one chat application with client-server architecture using React JS, Node JS, Express, and SQL database. The program asynchronously fetches JSON data from the server to be displayed on the user UI.
+            Registered users can access prior conversations, create and delete chats, and execute real-time communication with other users. The program features notification systems, appropriate time stamps, and message delivery statuses.
+            </p>
+            <div>
+              <p style={{fontSize:'15px', marginBlock:'0px'}}>View this project on GitHub:</p>
+              <a style={{fontSize:'12px', color:'#fcbc1d'}} href='https://github.com/nakahatar111/AWS_react_chat' target={'_blank'} rel="noreferrer">GitHub Link</a>
+            </div>
           </div>
           <div className="modals-footer">
             <button className='btn btn-secondary mt-3' onClick={props.onClose}><span>&times;</span> Close Project</button>

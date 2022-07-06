@@ -14,13 +14,14 @@
 }
 
 .modals-content{
-  /*position: absolute;
-  top:50px; */
+  position: absolute;
+  top:20px;
   padding: 20px;
   height: auto;
   width: 75vw;
   background-color: #fff;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 

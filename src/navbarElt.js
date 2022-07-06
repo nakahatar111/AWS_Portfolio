@@ -6,7 +6,6 @@ function NavElement(props) {
     'SKILLS': '#skills',
     'PROJECTS': '#projects',
     'PAPERS': '#papers',
-    'TIMELINE': '#timeline',
     'CONTACT': '#contact'
   };
 

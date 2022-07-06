@@ -7,7 +7,7 @@ function Navbar() {
   const [navStyle, setNavStyle] = useState(0);
   const [navMenu, setNavMenu] = useState(false);
 
-  const labels = ["ABOUT", "SKILLS", "PROJECTS","TIMELINE","CONTACT"]
+  const labels = ["ABOUT", "SKILLS", "PROJECTS","CONTACT"]
   
   const onScroll = () => {
     setNavStyle(window.scrollY);
@@ -68,7 +68,7 @@ function Navbar() {
             ))}
             <th>
               <div className='p-1'>
-                <a href = '/resume.pdf' target="_blank" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Montserrat', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
+                <a href = 'https://drive.google.com/file/d/1PXZmC8r-leZ8wUbZWoJgYNKqmT09k_MJ/view?usp=sharing' target="_blank" rel="noreferrer" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Montserrat', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
               </div>
             </th>
           </tr>
@@ -84,9 +84,6 @@ function Navbar() {
           </div>
           <div className='dropdown'>
             <a href='#projects' onClick={()=>setNavMenu(false)}>PROJECTS</a>
-          </div>
-          <div className='dropdown'>
-            <a href='#timeline' onClick={()=>setNavMenu(false)}>TIMELINE</a>
           </div>
           <div className='dropdown'>
             <a href='#contact' onClick={()=>setNavMenu(false)}>CONTACT</a>

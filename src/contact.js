@@ -1,6 +1,18 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 function Contact() {
+  const[name,setName] = useState('');
+  const[email,setEmail] = useState('');
+  const[phone,setPhone] = useState('');
+  const[message,setMessage] = useState('');
+
+  const handleMessage=()=>{
+    if(name && email && phone && message){
+      //window.open('mailto:nakahataryuma@gmail.com?subject=hello','_self');
+     // window.open(`mailto:nakahataryuma@gmail.com?subject=Portfolio%20Message:${name}&body=${name}%0A${email}%0A${phone}%0A${message}`, "_self");
+    }
+  }
+
   return (<React.Fragment>
    <div id = 'contact' className='d-flex flex-column align-items-center' style={{minHeight: "80vh", backgroundColor:'white'}}>
       <div style={{minHeight:'85vh', width:'100%', backgroundColor:'gray', backgroundPosition: 'center', backgroundImage: "url(/map.png)", backgroundSize: 'fit', backgroundRepeat: "no-repeat"}}>
@@ -17,20 +29,20 @@ function Contact() {
           <div className='row' style={{width:'80%'}}>
             <div className='col-md-6'>
               <div className='my-4'>
-                <input className='form-control p-3' type='text' placeholder='Your Name *'></input>
+                <input className='form-control p-3' onChange={e => {setName(e.target.value)}} type='text' placeholder='Your Name *'></input>
               </div>
               <div className=' my-4'>
-                <input className='form-control p-3' type='text' placeholder='Your Email *'></input>
+                <input className='form-control p-3' onChange={e => {setEmail(e.target.value)}} type='text' placeholder='Your Email *'></input>
               </div>
               <div className=' my-4'>
-                <input className='form-control p-3' type='text' placeholder='Your Phone *'></input>
+                <input className='form-control p-3' onChange={e => {setPhone(e.target.value)}} type='text' placeholder='Your Phone *'></input>
               </div>
             </div>
             <div className='col-md-6'>
-              <textarea style={{height:'80%', resize:'none'}} className='form-control  my-4' placeholder='Your Message'></textarea>
+              <textarea style={{height:'80%', resize:'none'}}  onChange={e => {setMessage(e.target.value)}} className='form-control  my-4 p-3' placeholder='Your Message *'></textarea>
             </div>
             <div className='col text-center m-3'>
-                <button className='btn btn-primary px-4 py-3'>Send Message</button>           
+                <button className='btn btn-primary px-4 py-3' onClick={handleMessage}>Send Message</button>           
             </div>
           </div>
         </form>

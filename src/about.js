@@ -89,9 +89,9 @@ function About() {
         </div>
         <div style={{fontFamily:'Trebuchet MS', maxWidth:'700px'}}>
           <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
-          <p style={{fontWeight:'550', fontSize:'22px', marginBottom:'2px'}}>Binghamton '24</p>
+          <p style={{fontWeight:'550', fontSize:'22px', marginBottom:'2px'}}>Binghamton '23</p>
           <p style={{fontWeight:'lighter', fontSize:'18px'}}>
-            I'm an undergraduate of Binghamton University, Class of 2024, 
+            I'm an undergraduate of Binghamton University, Class of 2023, 
             and I have a strong passion for Computer Science and Mathematics.
           </p>
           <p style={{fontWeight:'lighter', fontSize:'18px'}}>

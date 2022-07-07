@@ -2,7 +2,6 @@ import Navbar from './navbar';
 import About from './about';
 import Skills from './skills';
 import Projects from './projects';
-import Timeline from './timeline';
 import Contact from './contact';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <header className="App-header position-fixed justify-content-center" >
         <Navbar/>
       </header>
-      <div className='d-flex align-items-center text-center justify-content-center align-content-center align-items-center' 
+      <div id='home' className='d-flex align-items-center text-center justify-content-center align-content-center align-items-center' 
       style={{minHeight: "100vh", backgroundImage: "url(/nyc.jpg)", minWidth:'60px',backgroundSize:'cover', backgroundPositionY: "0px"}}>
         <div style={{textShadow:'black 1px 0 10px', paddingTop:'70px', paddingBottom:'70px'}}>
           <img

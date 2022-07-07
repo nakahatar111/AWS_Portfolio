@@ -18,11 +18,13 @@
   top:20px;
   padding: 20px;
   height: auto;
-  width: 75vw;
+  width: 70vw;
+  max-width: 900px;
   background-color: #fff;
   margin-top: 20px;
   margin-bottom: 50px;
   text-align: center;
+  padding-inline: 100px;
 }
 
 .modals-header{

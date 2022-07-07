@@ -56,7 +56,9 @@ function Navbar() {
     <React.Fragment>
       <div className='row' style={((navStyle === 0 && navMenu === false) && style1) || style2}>
         <div className='col-5' style={{minWidth:'270px'}}>
+          <a href = '#home' style={{textDecoration:'none'}}>
           <h3 className='mt-2 mb-3' style={(((navStyle === 0 && navMenu === false) && color1) || color2)}>Ryuma Nakahata</h3>
+          </a>
         </div>
         <div className='col-3 col-sm-6 d-flex justify-content-end' style={((navStyle === 0 && navMenu === false) && color1) || color2}>
           <button className='navMenu' onClick={()=>navMenu ? setNavMenu(false) : setNavMenu(true)}>Menu &equiv;</button>

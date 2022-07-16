@@ -137,7 +137,17 @@ function Skills() {
                 color='blue'
                 />
               <h4>C++</h4>
-              <p>Skill description coming soon!
+              <p>
+              I have over <span className='highlight'>two years </span>
+              of experience programming in <span className='highlight'>C++</span>
+              , where I focused on
+              <span className='highlight'> object-oriented programming </span>
+              that implements various 
+              <span className='highlight'>data structures</span> and
+              <span className='highlight'> algorithms</span>. I use C++ for 
+              many of my 
+              <span className='highlight'>research</span> and 
+              <span className='highlight'> academic projects</span> for its practicality.
               </p>
           </div>
           <div className='skillbox'>
@@ -150,7 +160,13 @@ function Skills() {
                 color='blue'
                 />
               <h4>JavaScript, HTML, CSS</h4>
-              <p>Skill description coming soon!
+              <p>Many of my projects are 
+                <span className='highlight'> deployed on a webpage</span> and 
+                rely on the 
+                <span className='highlight'> webpage's functionality</span> to 
+                process and display the data. I have plenty of experience developing 
+                <span className='highlight'> static</span> and 
+                <span className='highlight'> dynamic web pages</span> for various purposes.
               </p>
           </div>
           <div className='skillbox'>
@@ -163,7 +179,37 @@ function Skills() {
                 color='blue'
                 />
               <h4>SQL Database</h4>
-              <p>Skill description coming soon!
+              <p>I have used <span className='highlight'>MySQL database </span>
+              for years to experiment with 
+              <span className='highlight'> web development</span> and its
+              <span className='highlight'> data</span>. Some projects 
+              implementing SQL database include a 
+              <span className='highlight'> registration website</span>, a 
+              <span className='highlight'> browser-based game</span>, and a 
+              <span className='highlight'> chat application</span>.
+              </p>
+          </div>
+          <div className='skillbox'>
+            <img
+                alt="aws"
+                src= '/icons/aws.jpg'
+                width="110"
+                height="110"
+                style={{borderRadius: "50%", margin: '20px'}}
+                color='blue'
+                />
+              <h4>AWS</h4>
+              <p>I began exploring the 
+              <span className='highlight'> AWS platform</span> and its 
+              <span className='highlight'> services</span> to 
+              <span className='highlight'> host projects</span> on the internet. 
+              I gained familiarity with 
+              <span className='highlight'> AWS Amplify</span> to host my 
+              <span className='highlight'> frontend react applications</span>, 
+              <span className='highlight'> EC2</span> to run a virtual machine as a 
+              <span className='highlight'> webserver</span>, and 
+              <span className='highlight'> RDS</span> to manage 
+              <span className='highlight'> MySQL database</span> on the cloud.
               </p>
           </div>
         </div>

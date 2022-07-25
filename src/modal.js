@@ -26,8 +26,8 @@ function Modal(props) {
               chats. Additionally, the program features notification systems, 
               appropriate time stamps, and message delivery statuses.
             </p>
-            <img alt="textnet" src= '/projects/textnet.jpg'
-              style={{maxWidth:'90%', height:'auto'}} className="d-inline-block align-top" />
+            <img alt="textnet" src= '/project_modals/Diagram.png'
+              style={{maxWidth:'100%', height:'auto'}} className="d-inline-block align-top" />
             <p className="modals-text">
               TextNet is a group and one-to-one chat application that uses 
               React JS for the front-end user interface on AWS Amplify. 
@@ -60,7 +60,7 @@ function Modal(props) {
             <p className="modals-text">
               Registration Webpage that hosts a browser game built using a JS framework called Phaser3
             </p>
-            <img alt="Hitman" src= '/projects/Hitman.jpg'
+            <img alt="HitmanWebpage" src= '/project_modals/Hitman/webpage.jpg'
               style={{maxWidth:'90%', height:'auto'}}/>
             <p className="modals-text">
               I developed a website using Javascript, HTML, CSS and PHP, that 
@@ -69,7 +69,7 @@ function Modal(props) {
               valid inputs. Any sensitive data is properly hashed and salted 
               before being stored in the SQL database. 
             </p>
-            <img alt="Hitman" src= '/projects/Hitman.jpg'
+            <img alt="HitmanGameplay" src= '/projects/Hitman.jpg'
               style={{maxWidth:'90%', height:'auto'}}/>
             <p className="modals-text">
               Registered users can access an exclusive web game called Hitman. 
@@ -80,7 +80,7 @@ function Modal(props) {
               toward the player. The game's objective is to defeat all the 
               enemies as fast as possible. 
             </p>
-            <img alt="Hitman" src= '/projects/Hitman.jpg'
+            <img alt="HitmanLeaderboard" src= '/project_modals/Hitman/leaderboard.jpg'
               style={{maxWidth:'90%', height:'auto'}}/>
             <p className="modals-text">
               Whenever a user improves their score for a particular stage, 
@@ -106,9 +106,27 @@ function Modal(props) {
           </div>
           <div className="modals-body">
             <p className="modals-text">
-              Project description coming soon! <br/>
-              Check out the github link in the meanwhile!
+              Generate an image to maximize the score of a target label under a pretrained SqueezeNet model
             </p>
+            <p className="modals-text">
+              SqueezeNet model is a pretrained convolutional neural network. It achieves accuracies comparable to AlexNet but with a significantly reduced parameter count and computational complexity. SqueezeNet can easily perform image generation experiments on the CPU.
+            </p>
+            <p className="modals-text">
+              To generate images using a model, I backpropagate to compute the gradient of the loss. But then I keep the model fixed and perform gradient descent on the image to synthesize a new image which minimizes the loss.
+            </p>
+            <img alt="saliency" src= '/project_modals/NetVisualization/output.png'
+              style={{maxWidth:'100%', height:'auto'}}/>
+            <p className="modals-text">
+              These are saliency maps that tell which part of the image influences the classification decision of the network. To compute the saliency map, I took the absolute value of this gradient, then take the maximum value over the 3 input channels; the final saliency map thus has shape `(H, W)` instead of (3, H, W).
+            </p>
+            <img alt="generatedImage" src= '/project_modals/NetVisualization/tarantula.jpg'
+              style={{maxWidth:'100%', height:'auto'}}/>
+            <p className="modals-text">
+              By starting with a random noise image and performing gradient ascent on a target class, I can generate an image that the network will recognize as the target class. 
+              <br/>
+              The image can be improved by better regularization techniques and more iterations, but this project gave me a greater foundation for learning generative adversarial models.
+            </p>
+
             <p style={{fontSize:'17px', marginBlock:'0px'}}>View this project on GitHub:&nbsp;
               <a style={{fontWeight:'normal', color:'#fcbc1d', wordBreak:'break-word'}} 
               href='https://github.com/nakahatar111/' target={'_blank'} 
@@ -127,9 +145,37 @@ function Modal(props) {
           </div>
           <div className="modals-body">
             <p className="modals-text">
-              Project description coming soon! <br/>
-              Check out the github link in the meanwhile!
+              Sentiment analysis of music reviews using natural language toolkit
             </p>
+            <img alt="preprocessed" src= '/project_modals/TextAnalysis/preprocessed.jpg'
+              style={{maxWidth:'100%', height:'auto'}}/>
+            <p className="modals-text">
+              I imported a dataset of music reviews onto pandas for easier 
+              data preprocessing and analysis. Using NLTK, a natural language 
+              toolkit, I tokenized and lemmatized the music review texts, and 
+              removed stopwords, non-alphabetical characters. I created a 
+              column in df called 'pre-processed' that contains a tokenized, 
+              lemmatized, non-stopword body that is all lowercased and only 
+              contains alphabetical words of body.
+            </p>
+            <img alt="dtm" src= '/project_modals/TextAnalysis/tfidf.jpg'
+              style={{maxWidth:'100%', height:'auto'}}/>
+            <p className="modals-text">
+              Next, I created a document term matrix using the vectorized 
+              'pre-processed' text weighted by the TF-IDF scores through sklearn. 
+              TF-IDF is a statistical measure that evaluates how relevant a word 
+              is to collection of texts. The column of the matrix are the unique 
+              words that appear under the 'pre-processed' text and the rows are 
+              the music genres.
+            </p>
+            <img alt="topWords" src= '/project_modals/TextAnalysis/scores.jpg'
+              style={{maxWidth:'100%', height:'auto'}}/>
+            <p className="modals-text">
+              These are the top 10 words with the highest TF-IDF weights for 
+              'Indie', 'Folk', and 'Rap', respectively. It is clear how each 
+              genre is perceived by the music reviews without reading any reviews.
+            </p>
+
             <p style={{fontSize:'17px', marginBlock:'0px'}}>View this project on GitHub:&nbsp;
               <a style={{fontWeight:'normal', color:'#fcbc1d', wordBreak:'break-word'}} 
               href='https://github.com/nakahatar111/TextAnalysis' target={'_blank'} 

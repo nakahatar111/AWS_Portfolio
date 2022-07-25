@@ -30,49 +30,49 @@ function Projects() {
           <div className='box' onClick={()=>setShow(3)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/imageGenerator.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Network Visualization</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>Generate an image to maximize the score of a target label under a pretrained SqueezeNet model</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(4)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/sentimentAnalysis.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Sentiment Text Analysis</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>Sentiment analysis of music reviews using natural language toolkit</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(5)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/cnn.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Convolutional Neural Network</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Building a convolutional neural network from scratch on Python using NumPy</p>
+              <p style={{color:'white', fontSize:'20px'}}>Building a Convolutional Neural Network from scratch on Python using NumPy</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(6)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/MMNN.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Multi-Layer Fully Connected Neural Network</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>Building a Multi-Layer Fully Connected Neural Network from scratch on Python using NumPy</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(7)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/twoLayer.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Two Layer Neural Network</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>Building a Two Layer Neural Network from scratch on Python using NumPy</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(8)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/tournament.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Object-Oriented League Tournament</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>Object Oriented bracket tournament using a graph data structure and graph algorithms</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(9)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/libraryGUI.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Library Checkout GUI</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>Developed a library GUI using python that allows users to checkout, return, add, borrow, and search books connected to a central database</p>
             </div>
           </div>
           <div className='box' onClick={()=>setShow(10)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/Converter.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Binary-Text Converter</h1>
-              <p style={{color:'white', fontSize:'20px'}}>Project description coming soon! and this is for some of the spacing</p>
+              <p style={{color:'white', fontSize:'20px'}}>A binary to text and text to binary file converter</p>
             </div>
           </div>
         </div>

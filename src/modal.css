@@ -52,4 +52,12 @@
   border-top: 1px solid #ccc;
 }
 
+.modals-text{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #545454;
+  font-weight: lighter;
+  font-size: 16px;
+  margin-block: 15px;
+}
+
 

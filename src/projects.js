@@ -81,7 +81,7 @@ function Projects() {
         <div className='col text-center m-3'> 
           <h3>To see more of my projects...</h3>
           <a href='https://github.com/nakahatar111' target='_blank' rel="noreferrer">
-            <button className='btn btn-primary px-4' style={{backgroundColor:'#3A3B3B'}}>Visit My Github
+            <button className='btn px-4 text-white' style={{backgroundColor:'#3A3B3B'}}>Visit My Github
               <img
                 alt="Github"
                 src= '/icons/git.jpg'

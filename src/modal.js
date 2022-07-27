@@ -316,6 +316,27 @@ function Modal(props) {
             <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
+
+        {props.show ===11 && <div className="modals-content">
+          <div className="modals-header">
+            <h2>1 Dimensional Generative Adversarial Network</h2>
+          </div>
+          <div className="modals-body">
+          <p className="modals-text">
+              Project description coming soon! <br/>
+              Check out the github link in the meanwhile!
+            </p>
+            <p style={{fontSize:'17px', marginBlock:'0px'}}>View this project on GitHub:&nbsp;
+              <a style={{fontWeight:'normal', color:'#fcbc1d', wordBreak:'break-word'}} 
+              href='https://github.com/nakahatar111/1D_GAN' target={'_blank'} 
+              rel="noreferrer">https://github.com/nakahatar111/1D_GAN</a>
+            </p>
+          </div>
+
+          <div className="modals-footer">
+            <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
+          </div>
+        </div>}
         
       </div>
     </React.Fragment>

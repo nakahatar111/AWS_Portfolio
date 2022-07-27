@@ -39,6 +39,12 @@ function Projects() {
               <p style={{color:'white', fontSize:'20px'}}>Sentiment analysis of music reviews using natural language toolkit</p>
             </div>
           </div>
+          <div className='box' onClick={()=>setShow(11)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/1dgan.png)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
+            <div className='bgbox'>
+              <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>1 Dimensional Generative Adversarial Network</h1>
+              <p style={{color:'white', fontSize:'20px'}}>Building a 1 dimensional generative adversarial network using Keras</p>
+            </div>
+          </div>
           <div className='box' onClick={()=>setShow(5)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/cnn.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Convolutional Neural Network</h1>
@@ -76,6 +82,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        
         <Modal onClose={()=>setShow(0)} show={show} />
 
         <div className='col text-center m-3'> 

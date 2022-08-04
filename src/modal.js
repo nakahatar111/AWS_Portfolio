@@ -337,6 +337,38 @@ function Modal(props) {
             <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
+
+        {props.show ===12 && <div className="modals-content">
+          <div className="modals-header">
+            <h2>DCGAN for CelebA</h2>
+          </div>
+          <div className="modals-body">
+            <p className="modals-text">
+              Developed a DCGAN for CelebFaces Attributes Dataset to generate 
+              80x80 human portraits using Keras and Tensorflow. Ran a 
+              Multi-Task Cascaded CNN on the portrait dataset to perform face 
+              detection and extract only the face before training the model
+              <br/>
+              Generator takes a 100-dimensional latent point as input to 
+              generate an image, and the discriminator predicts the 
+              authenticity of a given image. After training the model for 200 
+              epochs, the model generated largely realistic human portraits.
+            </p>
+
+            <img alt="generatedFace" src= '/projects/generatedFace.png'
+              style={{maxWidth:'90%', height:'auto'}}/>
+
+            <p style={{fontSize:'17px', marginBlock:'0px'}}>View this project on GitHub:&nbsp;
+              <a style={{fontWeight:'normal', color:'#fcbc1d', wordBreak:'break-word'}} 
+              href='https://github.com/nakahatar111/DCGAN_for_CelebA' target={'_blank'} 
+              rel="noreferrer">https://github.com/nakahatar111/DCGAN_for_CelebA</a>
+            </p>
+          </div>
+
+          <div className="modals-footer">
+            <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
+          </div>
+        </div>}
         
       </div>
     </React.Fragment>

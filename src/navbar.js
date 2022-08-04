@@ -47,7 +47,7 @@ function Navbar() {
     color:"#fcbc1d",
     fontSize:"20px",
     fontWeight: "600",
-    padding: "0px 0px 0px 25px",
+    padding: "3px 0px 0px 25px",
     fontFamily: "Verdana concourse sweet sans",
     transition: 'font-size 0.5s, padding 0.5s'
   };

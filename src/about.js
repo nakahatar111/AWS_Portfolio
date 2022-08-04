@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
   <React.Fragment>
-    <div id= 'about' className='my-2 d-flex justify-content-center justify-content-evenly align-items-center flex-wrap' style={{height:'auto'}}>
+    <div id= 'about' className='my-2 d-flex justify-content-evenly align-items-center flex-wrap'>
       <a href='https://www.binghamton.edu/'>
         <img
           alt=""

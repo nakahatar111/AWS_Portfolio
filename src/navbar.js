@@ -39,7 +39,7 @@ function Navbar() {
     fontSize:"24px",
     fontWeight: "500",
     padding: "10px 0px 0px 25px",
-    fontFamily: "Verdana",
+    fontFamily: "Verdana concourse sweet sans",
     transition: 'font-size 0.5s, padding 0.5s'
   };
 
@@ -48,7 +48,7 @@ function Navbar() {
     fontSize:"20px",
     fontWeight: "600",
     padding: "0px 0px 0px 25px",
-    fontFamily: "Verdana",
+    fontFamily: "Verdana concourse sweet sans",
     transition: 'font-size 0.5s, padding 0.5s'
   };
 

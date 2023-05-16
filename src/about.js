@@ -1,6 +1,7 @@
 import React from 'react';
 
 function About() {
+  const B = (props) => <span style={{fontWeight: '600'}}>{props.children}</span>
   return (
   <React.Fragment>
     <div id= 'about' className='my-2 d-flex justify-content-evenly align-items-center flex-wrap'>
@@ -89,31 +90,36 @@ function About() {
         </div>
         <div style={{fontFamily:'Trebuchet MS', maxWidth:'700px'}}>
           <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
-          <p style={{fontWeight:'550', fontSize:'22px', marginBottom:'2px'}}>Binghamton '23</p>
-          <p style={{fontWeight:'lighter', fontSize:'18px'}}>
-            I'm an undergraduate of Binghamton University, Class of 2023, 
+          <p style={{fontWeight:'550', fontSize:'20px', marginBottom:'2px'}}>Binghamton '24, ML Research Assistant, Aspiring Software Engineer</p>
+          <p style={{fontWeight:'lighter', fontSize:'16px', marginBottom:'4px'}}>
+            I'm a graduate at Binghamton University, Class of 2024, 
             and I have a strong passion for Computer Science and Mathematics.
           </p>
-          <p style={{fontWeight:'lighter', fontSize:'18px'}}>
+          <p style={{fontWeight:'lighter', fontSize:'16px'}}>
             My interest includes calculus, combinatorics, web development, 
-            natural processing language, high-performance computing, and machine 
-            learning.
+            natural processing language, high-performance computing, and generative 
+            deep learning.
           </p>
-          <h4 className='pt-4 mb-1' style={{fontWeight:'bolder'}}>Binghamton University,</h4>
-          <h5 style={{fontWeight:'bolder'}}>Thomas J. Watson College of Engineering and Applied Science</h5>
-          <ul style={{fontSize: '19px', fontWeight:'lighter'}}>
-            <li style={{fontWeight:'bold'}}>Bachelor of Science in Computer Science</li>
-            <li style={{fontWeight:'bold'}}>Bachelor of Art in Mathematical Science</li>
-            <li style={{fontWeight:'lighter'}}>Pursuing a Master of Science in Computer Science/Artificial Intelligence</li>
+          <h4 className='pt-2 mb-1' style={{fontSize: '24px', fontWeight:'bolder'}}>Binghamton University,</h4>
+          <h5 style={{fontSize:'19px',fontWeight:'bolder', marginBottom:'2px'}}>Thomas J. Watson College of Engineering and Applied Science</h5>
+          <ul style={{fontSize: '17px', fontWeight:'lighter'}}>
+            <li style={{fontWeight:'bold'}}>Master of Science in Computer Science with Artificial Intelligence Track</li>
+            <p style={{fontSize: '14px'}}>May 2023 - May 2024</p>
+            <li style={{fontWeight:'bold'}}>Bachelor of Art in Mathematical Science, Minor in Computer Science</li>
+            <p style={{fontSize: '14px', marginBottom:'0px'}}>August 2020 - May 2023</p>
+              <p style={{fontSize:'15px', marginBottom:'0px'}}><B>GPA:</B> 3.92/4.00 <br/><B>Dean's List:</B> Fall 2020 - Spring 2023 <br/><B>Honors:</B></p>
+              <p style={{fontSize:'15px', marginLeft:'6px'}}>- Summa Cum Laude<br/>- Pi Mu Epsilon Honorary Mathematics Society<br/>- Upsilon Pi 
+              Epsilon Honor Society for Computing and Information Disciplines
+              <br/>- Phi Beta Kappa Academic Honor Society</p>
           </ul>
         </div>
 
-        <div className='row text-center' style={{paddingTop:'20px'}}>
+        <div className='row text-center' style={{paddingTop:'10px'}}>
           <h1>Learn more about my:</h1>
           <div className='d-flex flex-wrap justify-content-center my-4'>
-            <a href='#skills' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Skills</a>
-            <a href='#projects' className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
-            <a href = 'https://drive.google.com/file/d/1PXZmC8r-leZ8wUbZWoJgYNKqmT09k_MJ/view?usp=sharing' target="_blank" rel="noreferrer" className='px-5 py-3 m-2' style={{backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Resume</a>
+            <a href='#skills' className='px-5 py-3 m-2' style={{fontWeight:'600', backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Skills</a>
+            <a href='#projects' className='px-5 py-3 m-2' style={{fontWeight:'600',backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
+            <a href = 'https://drive.google.com/file/d/1PXZmC8r-leZ8wUbZWoJgYNKqmT09k_MJ/view?usp=sharing' target="_blank" rel="noreferrer" className='px-5 py-3 m-2' style={{fontWeight:'600',backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Resume</a>
           </div>
         </div>
       </div>

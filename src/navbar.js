@@ -23,7 +23,7 @@ function Navbar() {
     backgroundColor: "transparent",
     padding: "0px 0px 0px 0px",
     transition: 'background-color 0.5s, padding 0.5s',
-    minWidth: "390px"
+    minWidth: "390px",
   };
 
   const style2 = {
@@ -31,7 +31,7 @@ function Navbar() {
     backgroundColor: "#212529",  
     padding: "0px 0px 0px 0px",
     transition: 'background-color 0.5s, padding 0.5s',
-    minWidth: "390px"
+    minWidth: "390px",
   };
 
   const color1 = {/*text*/
@@ -39,16 +39,16 @@ function Navbar() {
     fontSize:"24px",
     fontWeight: "500",
     padding: "10px 0px 0px 25px",
-    fontFamily: "Verdana concourse sweet sans",
-    transition: 'font-size 0.5s, padding 0.5s'
+    fontFamily: "Verdana, concourse, sweet sans",
+    transition: 'font-size 0.5s, padding 0.5s',
   };
 
   const color2 = {
     color:"#fcbc1d",
     fontSize:"20px",
-    fontWeight: "600",
+    fontWeight: "550",
     padding: "3px 0px 0px 25px",
-    fontFamily: "Verdana concourse sweet sans",
+    fontFamily: "Verdana, concourse, sweet sans",
     transition: 'font-size 0.5s, padding 0.5s'
   };
 
@@ -70,7 +70,7 @@ function Navbar() {
             ))}
             <th>
               <div className='p-1'>
-                <a href = 'https://drive.google.com/file/d/1PXZmC8r-leZ8wUbZWoJgYNKqmT09k_MJ/view?usp=sharing' target="_blank" rel="noreferrer" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Montserrat', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
+                <a href = 'https://drive.google.com/file/d/1PXZmC8r-leZ8wUbZWoJgYNKqmT09k_MJ/view?usp=sharing' target="_blank" rel="noreferrer" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Verdana, concourse, sweet sans', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
               </div>
             </th>
           </tr>

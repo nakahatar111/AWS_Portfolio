@@ -24,8 +24,8 @@ function App() {
             className="d-inline-block align-top"
             />
           <h1 style={{color: '#F7F7F7',fontFamily:'', fontWeight:'700', fontSize:'50px'}}>Ryuma Nakahata</h1>
-          <h3 className='text-white m-3 pb-3 fst-italic' style={{fontWeight:'700'}}>Undergraduate Student at Binghamton University</h3>
-          <a href='#about' className='px-5 py-3' style={{backgroundColor: "whitesmoke", borderRadius: '7px', textDecoration: 'none', color: 'black', textShadow:'none',boxShadow: "0px 0px 4px black"}}>Enter Portfolio</a>
+          <h3 className='text-white m-3 pb-3 fst-italic' style={{fontWeight:'700'}}>Graduate Student at Binghamton University</h3>
+          <a href='#about' className='px-5 py-3' style={{fontWeight:'700',backgroundColor: "whitesmoke", borderRadius: '7px', textDecoration: 'none', color: 'black', textShadow:'none',boxShadow: "0px 0px 4px black"}}>Enter Portfolio</a>
         </div>
       </div>
       <About/>

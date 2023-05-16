@@ -117,7 +117,7 @@ function Skills() {
                 style={{borderRadius: "50%", margin: '20px'}}
                 color='blue'
                 />
-              <h4>React</h4>
+              <h4>React JS</h4>
               <p>I have extensive experience in using React for both 
                 <span className='highlight'> functional</span> and 
                 <span className='highlight'> class-based component programming

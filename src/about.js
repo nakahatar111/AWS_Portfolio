@@ -92,7 +92,7 @@ function About() {
           <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
           <p style={{fontWeight:'550', fontSize:'20px', marginBottom:'2px'}}>Binghamton '24, ML Research Assistant, Aspiring Software Engineer</p>
           <p style={{fontWeight:'lighter', fontSize:'16px', marginBottom:'4px'}}>
-            I'm a graduate at Binghamton University, Class of 2024, 
+            I'm a graduate student at Binghamton University, Class of 2024, 
             and I have a strong passion for Computer Science and Mathematics.
           </p>
           <p style={{fontWeight:'lighter', fontSize:'16px'}}>

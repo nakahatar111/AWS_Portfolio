@@ -7,7 +7,7 @@ function Navbar() {
   const [navStyle, setNavStyle] = useState(0);
   const [navMenu, setNavMenu] = useState(false);
 
-  const labels = ["ABOUT", "SKILLS", "PROJECTS","CONTACT"]
+  const labels = ["ABOUT", "SKILLS","EXPERIENCES", "PROJECTS","CONTACT"]
   
   const onScroll = () => {
     setNavStyle(window.scrollY);
@@ -54,7 +54,7 @@ function Navbar() {
 
   return (
     <React.Fragment>
-      <div className='row' style={((navStyle === 0 && navMenu === false) && style1) || style2}>
+      <div className='navBar row' style={((navStyle === 0 && navMenu === false) && style1) || style2}>
         <div className='col-5' style={{minWidth:'270px'}}>
           <a href = '#home' style={{textDecoration:'none'}}>
           <h3 className='mt-2 mb-3' style={(((navStyle === 0 && navMenu === false) && color1) || color2)}>Ryuma Nakahata</h3>
@@ -83,6 +83,9 @@ function Navbar() {
           </div>
           <div className='dropdown'>
             <a href='#skills' onClick={()=>setNavMenu(false)}>SKILLS</a>
+          </div>
+          <div className='dropdown'>
+            <a href='#timeline' onClick={()=>setNavMenu(false)}>EXPERIENCES</a>
           </div>
           <div className='dropdown'>
             <a href='#projects' onClick={()=>setNavMenu(false)}>PROJECTS</a>

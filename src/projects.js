@@ -8,13 +8,18 @@ function Projects() {
   return (
     <React.Fragment>
 
-      <div id = 'projects' className='d-flex flex-column align-items-center' style={{minHeight: "100vh", backgroundColor:'#edeeef'}}>
-        <div className='text-center' style={{height:'auto', marginTop:'100px'}}>
-          <h1 style={{fontSize:'20px', fontWeight:'650', color:'#fcbc1d'}}>Portfolio</h1>
+      <div id = 'projects' className='d-flex flex-column align-items-center' style={{minHeight: "100vh", backgroundColor:'#2988bc'}}>
+        <div className='text-center text-white' style={{height:'auto', marginTop:'80px'}}>
           <h1 style={{fontSize:'50px', fontWeight:'650'}}>Personal Projects</h1>
           <p style={{fontSize:'20px', fontWeight:'100'}}>Here you can see some of the projects I've done on my own time.</p>
         </div>
         <div className='d-flex flex-wrap text-center text-white justify-content-center my-4' style={{height:'auto', maxWidth:'1300px', padding:'30px'}}>
+          <div className='box' onClick={()=>setShow(13)} style={{cursor:'pointer', textShadow:'black 0px 0 15px', backgroundImage: "url(/projects/SpeechAIimage.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat", backgroundPosition:'center'}}>
+            <div className='bgbox'>
+              <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Speech AI Voice Assistant</h1>
+              <p style={{color:'#f9f9f9', fontSize:'20px'}}>Voice Assistant that integrates a Transformer-based ASR Model and GPT</p>
+            </div>
+          </div>
           <div className='box' onClick={()=>setShow(1)} style={{cursor:'pointer', textShadow:'black 0px 0 15px', backgroundImage: "url(/projects/textnet.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat", backgroundPosition:'center'}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>TextNet</h1>
@@ -40,7 +45,7 @@ function Projects() {
               <p style={{color:'#f9f9f9', fontSize:'20px'}}>Generate an image to maximize the score of a target label under a pretrained SqueezeNet model</p>
             </div>
           </div>
-          <div className='box' onClick={()=>setShow(11)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/1dgan.png)", backgroundSize: 'cover', backgroundRepeat: "no-repeat", backgroundPosition:'center'}}>
+          <div className='box' onClick={()=>setShow(11)} style={{cursor:'pointer', textShadow:'black 1px 0 10px', backgroundImage: "url(/projects/1dgan.png)", backgroundSize: 'cover', backgroundRepeat: "no-repeat", backgroundPosition:'center', backgroundColor: '#FFFFFF'}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>1 Dimensional Generative Adversarial Network</h1>
               <p style={{color:'#f9f9f9', fontSize:'20px'}}>Building a 1 dimensional generative adversarial network using Keras</p>

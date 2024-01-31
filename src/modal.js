@@ -369,7 +369,35 @@ function Modal(props) {
             <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
-        
+        {props.show ===13 && <div className="modals-content">
+          <div className="modals-header">
+            <h2>Speech AI Voice Assistant</h2>
+          </div>
+          <div className="modals-body">
+            <p className="modals-text">
+              Implemented a transformer-based ASR model using PyTorch that processes audio inquiries into the text 
+              to allow users to interact with a pre-trained GPT model from Hugging Face, resulting in seamless 
+              human-computer interaction.
+              <br/>
+              I accomplished a challenging project that demanded refining a wide range of technical skills in 
+              software and AI, effectively demonstrating expertise in AI development and showcasing the ability 
+              to deliver innovative and practical solutions.
+            </p>
+
+            <img alt="Transformer" src= '/project_modals/SpeechAI/SpeechAIArchitecture.png'
+              style={{maxWidth:'90%', height:'auto'}}/>
+
+            <p style={{fontSize:'17px', marginBlock:'0px'}}>View this project on GitHub:&nbsp;
+              <a style={{fontWeight:'normal', color:'#fcbc1d', wordBreak:'break-word'}} 
+              href='https://github.com/nakahatar111/SpeechAI' target={'_blank'} 
+              rel="noreferrer">https://github.com/nakahatar111/SpeechAI</a>
+            </p>
+          </div>
+
+          <div className="modals-footer">
+            <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
+          </div>
+        </div>}
       </div>
     </React.Fragment>
   );

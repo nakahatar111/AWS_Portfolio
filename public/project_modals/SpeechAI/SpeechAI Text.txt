@@ -1,0 +1,8 @@
+Speech AI Voice Assistant
+
+Deployed a transformer-based speech recognition model using PyTorch, trained over 13,100 voice audio and its transcription, that is integrated into the voice assistant that processes audio inquiries into text, requests ChatGPT API for a sensible response, and translates response into a natural-sounding human voice, resulting in seamless interaction between user and voice assistant
+
+Accomplished a challenging project that demanded refining a wide range of technical skills in software and AI, effectively demonstrating expertise in AI development and showcasing the ability to deliver innovative and practical solutions
+
+Implemented a transformer-based ASR model using PyTorch that processes audio inquiries into the text to allow users to interact with a pre-trained GPT model from Hugging Face, resulting in seamless human-computer interaction
+Developing a software interface using Django, where the frontend records an audio prompt from the user, and the backend responds with a detailed response via an API call to the web server,  which processes the audio through the ASR and GPT models

@@ -4,6 +4,7 @@ function NavElement(props) {
   var dict = {
     'ABOUT': '#about',
     'SKILLS': '#skills',
+    'EXPERIENCES': '#timeline',
     'PROJECTS': '#projects',
     'PAPERS': '#papers',
     'CONTACT': '#contact'

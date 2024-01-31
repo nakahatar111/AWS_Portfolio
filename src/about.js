@@ -104,13 +104,26 @@ function About() {
           <h5 style={{fontSize:'19px',fontWeight:'bolder', marginBottom:'2px'}}>Thomas J. Watson College of Engineering and Applied Science</h5>
           <ul style={{fontSize: '17px', fontWeight:'lighter'}}>
             <li style={{fontWeight:'bold'}}>Master of Science in Computer Science with Artificial Intelligence Track</li>
-            <p style={{fontSize: '14px'}}>May 2023 - May 2024</p>
+            <p style={{fontSize: '14px', marginBottom:'0px'}}>May 2023 - May 2024</p>
+            <p style={{fontSize:'15px', marginBottom:'0px'}}>
+              <B>GPA:</B> 4.00/4.00 <br/>
+              <B>Dean's List:</B> Fall 2023<br/>
+              <B>Awards:</B></p>
+            <p style={{fontSize:'15px', marginLeft:'6px'}}>
+              - Graduate Teaching Assistantship<br/>
+              - Full Tuition Scholarship</p>
+
             <li style={{fontWeight:'bold'}}>Bachelor of Art in Mathematical Science, Minor in Computer Science</li>
             <p style={{fontSize: '14px', marginBottom:'0px'}}>August 2020 - May 2023</p>
-              <p style={{fontSize:'15px', marginBottom:'0px'}}><B>GPA:</B> 3.92/4.00 <br/><B>Dean's List:</B> Fall 2020 - Spring 2023 <br/><B>Honors:</B></p>
-              <p style={{fontSize:'15px', marginLeft:'6px'}}>- Summa Cum Laude<br/>- Pi Mu Epsilon Honorary Mathematics Society<br/>- Upsilon Pi 
-              Epsilon Honor Society for Computing and Information Disciplines
-              <br/>- Phi Beta Kappa Academic Honor Society</p>
+            <p style={{fontSize:'15px', marginBottom:'0px'}}>
+              <B>GPA:</B> 3.92/4.00 <br/>
+              <B>Dean's List:</B> Fall 2020 - Spring 2023 <br/>
+              <B>Honors:</B></p>
+            <p style={{fontSize:'15px', marginLeft:'6px'}}>
+              - Summa Cum Laude<br/>
+              - Pi Mu Epsilon Honorary Mathematics Society<br/>
+              - Upsilon Pi Epsilon Honor Society for Computing and Information Disciplines<br/>
+              - Phi Beta Kappa Academic Honor Society</p>
           </ul>
         </div>
 

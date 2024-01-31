@@ -4,7 +4,7 @@ import './skills.css';
 function Skills() {
   return (<React.Fragment>
     <div id = 'skills' className='d-flex flex-column align-items-center' style={{minHeight: "100vh", backgroundColor:'#2988bc'}}>
-        <div className='text-center text-white' style={{marginTop:'100px'}}>
+        <div className='text-center text-white' style={{marginTop:'80px'}}>
           <h1 style={{fontSize:'50px', fontWeight:'650'}}>Skills</h1>
           <p style={{fontSize:'20px', fontWeight:'100'}}>Below are some of my skills, and I'm always looking to learn more.</p>
         </div>

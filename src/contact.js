@@ -6,12 +6,27 @@ function Contact() {
   const[phone,setPhone] = useState('');
   const[message,setMessage] = useState('');
 
-  const handleMessage=()=>{
-    if(name && email && phone && message){
-      //window.open('mailto:nakahataryuma@gmail.com?subject=hello','_self');
-     // window.open(`mailto:nakahataryuma@gmail.com?subject=Portfolio%20Message:${name}&body=${name}%0A${email}%0A${phone}%0A${message}`, "_self");
+  const handleMessage = (event) => {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+  
+    // Debugging line: you should see this in your console when you click the button
+    console.log('The button was clicked.');
+  
+    if (name && email && phone && message) {
+      // Debugging line: check if the condition passes
+      console.log('All fields are filled.');
+  
+      const mailtoLink = `mailto:nakahataryuma@gmail.com?subject=Portfolio Message from ${encodeURIComponent(name)}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(phone)}%0AMessage: ${encodeURIComponent(message)}`;
+      console.log(mailtoLink);
+      
+      window.open(mailtoLink, "_self");
+    } else {
+      // Debugging line: if this runs, one of the fields is empty
+      console.log('Please fill all the fields.');
+      alert('Please fill all the fields.');
     }
-  }
+  };
 
   return (<React.Fragment>
    <div id = 'contact' className='d-flex flex-column align-items-center' style={{minHeight: "80vh", backgroundColor:'white'}}>
@@ -42,7 +57,7 @@ function Contact() {
               <textarea style={{height:'80%', resize:'none'}}  onChange={e => {setMessage(e.target.value)}} className='form-control  my-4 p-3' placeholder='Your Message *'></textarea>
             </div>
             <div className='col text-center m-3'>
-                <button className='btn btn-primary px-4 py-3' onClick={handleMessage}>Send Message</button>           
+                <button className='btn btn-primary px-4 py-3' onClick={(e) => handleMessage(e)}>Send Message</button>
             </div>
           </div>
         </form>

@@ -11,7 +11,7 @@ function App() {
     {
       src:'./binghamton.png',
       title: 'Teaching Assistant for CS210: Programming with Objects & Data',
-      company: 'Binghamton Univerity',
+      company: 'Binghamton University',
       location: 'Binghamton, NY',
       startDate: '2024',
       endDate: 'Present',
@@ -31,7 +31,7 @@ function App() {
     {
       src:'./binghamton.png',
       title: 'Teaching Assistant for CS220: Programming with Objects & Data',
-      company: 'Binghamton Univerity',
+      company: 'Binghamton University',
       location: 'Binghamton, NY',
       startDate: '',
       endDate: '',
@@ -83,11 +83,5 @@ function App() {
     </React.Fragment>
   );
 }
-/*
-<About/>
-<Skills/>
-<Projects/>
-<Timeline/>  --> add this after <About/>
-<Contact/>
-*/
+
 export default App;

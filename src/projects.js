@@ -97,7 +97,7 @@ function Projects() {
         
         <Modal onClose={()=>setShow(0)} show={show} />
 
-        <div className='col text-center m-3'> 
+        <div className='col text-center m-3 text-white'> 
           <h3>To see more of my projects...</h3>
           <a href='https://github.com/nakahatar111' target='_blank' rel="noreferrer">
             <button className='btn px-4 text-white' style={{backgroundColor:'#3A3B3B'}}>Visit My Github

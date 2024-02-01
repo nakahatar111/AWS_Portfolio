@@ -20,13 +20,13 @@ const Timeline = ({ experiences }) => {
 
               </div>)}
             </div>
-            <div className='d-flex flex-column col-2'>
+            <div className='d-flex flex-column col-1' style={{minWidth:'120px'}}>
               <div className='text-center'>
               <img
                 alt={exp.company}
                 src= {exp.src}
-                width="130"
-                height="130"
+                width="90%"
+                height="auto"
                 style={{ borderRadius: "50%", border: "6px solid #9EA4AC", zIndex: 2, position: 'relative', top:'-3px', backgroundColor: '#FFFFFF'}}
                 />
                 </div>

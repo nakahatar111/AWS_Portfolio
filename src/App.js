@@ -13,9 +13,9 @@ function App() {
       title: 'Teaching Assistant for CS210: Programming with Objects & Data',
       company: 'Binghamton University',
       location: 'Binghamton, NY',
-      startDate: '2024',
-      endDate: 'Present',
-      dateRange: '',
+      startDate: '',
+      endDate: '',
+      dateRange: 'Spring 2024',
       description: 'I currently work as a Teaching Assistant for a undergraduate computer science course at Binghamton Univerity for Spring 2024. I supervise 40 students for hands-on instructional laboratory for a course that teaches materials in object-oriented programming using Java. I also assist and evaluate student tasks, such as laboratory work, homework, quizzes, and exams.',
     },
     {

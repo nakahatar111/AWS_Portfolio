@@ -40,13 +40,13 @@ function App() {
     },
     {
       src:'./company_logo/AllYours.jpg',
-      title: 'Web Development Intern',
+      title: 'Full-stack Developer',
       company: 'All Yours Coaching',
       location: 'New York, NY',
-      startDate: '',
-      endDate: '',
-      dateRange: 'Summer 2022',
-      description: 'I interned at All Yours Coaching as a Web Developer in the Product Team. My team mainly developed and maintained technologies of the front and backend of the company webpage. This includes overseeing product and customer databases and prototyping, demonstrating, and deploying new technologies. During my internship, my team revamped the website interface through webpage analytics, feedback reports, and with close teamwork, leading to a 20% improvement in KPI metrics and an 8% increase in customer retention, addressing previously identified user experience issues.',
+      startDate: '2022',
+      endDate: 'Present',
+      dateRange: '',
+      description: 'I worked at All Yours Coaching as a Web Developer Intern in the Product Team and transfered into remote part-time Full-Stack Developer. My team mainly develop and maintain technologies of the front-end and back-end pipeline of the company website. This includes overseeing product and customer databases and prototyping, demonstrating, and deploying new technologies. My team revamped the website interface through webpage analytics, feedback reports, and with close teamwork, leading to a 20% improvement in KPI metrics and an 8% increase in customer retention, addressing previously identified user experience issues.',
     },
   ];
   

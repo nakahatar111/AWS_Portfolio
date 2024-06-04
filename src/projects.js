@@ -14,6 +14,12 @@ function Projects() {
           <p style={{fontSize:'20px', fontWeight:'100'}}>Here you can see some of the projects I've done on my own time.</p>
         </div>
         <div className='d-flex flex-wrap text-center text-white justify-content-center my-4' style={{height:'auto', maxWidth:'1300px', padding:'30px'}}>
+        <div className='box' onClick={()=>setShow(14)} style={{cursor:'pointer', textShadow:'black 0px 0 15px', backgroundImage: "url(/projects/RAG.png)", backgroundSize: 'cover', backgroundRepeat: "no-repeat", backgroundPosition:'center'}}>
+            <div className='bgbox'>
+              <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>LLM Chatbot with Retrieval Augmented Generation</h1>
+              <p style={{color:'#f9f9f9', fontSize:'20px'}}>Chatbot for a hospital system that generates grounded responses from a set of databases</p>
+            </div>
+          </div>
           <div className='box' onClick={()=>setShow(13)} style={{cursor:'pointer', textShadow:'black 0px 0 15px', backgroundImage: "url(/projects/SpeechAIimage.jpg)", backgroundSize: 'cover', backgroundRepeat: "no-repeat", backgroundPosition:'center'}}>
             <div className='bgbox'>
               <h1 style={{paddingTop:'60px', color:'#fcbc1d', fontSize:'25px'}}>Speech AI Voice Assistant</h1>

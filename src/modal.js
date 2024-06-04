@@ -398,6 +398,45 @@ function Modal(props) {
             <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
           </div>
         </div>}
+        {props.show ===14 && <div className="modals-content">
+          <div className="modals-header">
+            <h2>LLM Chatbot with Retrieval Augmented Generation</h2>
+          </div>
+          <div className="modals-body">
+            <p className="modals-text">
+              Built personalized LLM RAG chatbot for a fake hospital system using LangChain capable of fetching structured and unstructured data
+              from graph databases using Neo4j AuraDB instance, FastAPI, and Streamlit to generate grounded responses for user queries.
+              <br/>
+              <img alt="LLM RAG Diagram" src= '/project_modals/RAG_Diagram.png'
+              style={{maxWidth:'90%', height:'auto'}}/><br/>              
+            </p>
+            <b>Central LangChain Agent:</b> Main brain of the chatbot that controls which tool to call to obtain the necessary data to answer the user query. 
+            The agent observes the collected data and fomulates the response to the query.
+            <br/><br/>
+            <b>Neo4j AuraDB:</b> Stores structured hosptial system data and unstructured patient reviews in a graph databse.
+            <br/><br/>
+            <b>LangChain Neo4j Cypher Chain:</b> Converts user query into Cypher to execute necessary queries in Neo4j.
+            <br/><br/>
+            <b>LangChain Neo4j Reviews Vector Chain:</b> Searches for relevant reviews in Neo4j based on semantical similarity against the user query.
+            <br/><br/>
+            <b>Wait Times Function:</b> Based on the given hosptial name, the function returns the wait time to the central agent.
+            <br/><br/>
+            Visually, the chatbot looks like this:
+            <img alt="LLM RAG Chatbot" src= '/projects/RAG.png'
+              style={{maxWidth:'90%', height:'auto'}}/>
+              <br/><br/>
+
+            <p style={{fontSize:'17px', marginBlock:'0px'}}>View this project on GitHub:&nbsp;
+              <a style={{fontWeight:'normal', color:'#fcbc1d', wordBreak:'break-word'}} 
+              href='https://github.com/nakahatar111/RAG_Chatbot' target={'_blank'} 
+              rel="noreferrer">https://github.com/nakahatar111/RAG_Chatbot</a>
+            </p>
+          </div>
+
+          <div className="modals-footer">
+            <button className='btn btn-secondary mt-3 p-2' onClick={props.onClose}><span>&times;</span> Close Project</button>
+          </div>
+        </div>}
       </div>
     </React.Fragment>
   );

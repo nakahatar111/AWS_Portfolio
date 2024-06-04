@@ -70,7 +70,7 @@ function Navbar() {
             ))}
             <th>
               <div className='p-1'>
-                <a href = 'https://drive.google.com/file/d/1PXZmC8r-leZ8wUbZWoJgYNKqmT09k_MJ/view?usp=sharing' target="_blank" rel="noreferrer" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Verdana, concourse, sweet sans', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
+                <a href = 'https://drive.google.com/file/d/199bXZBSUzrJoZihgZhrs5nL3mnF9YlGm/view?usp=sharing' target="_blank" rel="noreferrer" className='m-0 text-white' style={{textDecoration:'none', fontSize:'14px', fontWeight:'100', fontFamily: 'Verdana, concourse, sweet sans', paddingRight: '10px', background: 'none', border: 'none'}}>RESUME</a>
               </div>
             </th>
           </tr>

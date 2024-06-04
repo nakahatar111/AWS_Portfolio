@@ -126,12 +126,13 @@ function About() {
         </div>
 
         <div className='row text-center' style={{paddingTop:'10px'}}>
-          <h1>Learn more about my:</h1>
+          <h1>Learn more about me:</h1>
           <div className='d-flex flex-wrap justify-content-center my-4'>
             <a href='#skills' className='px-5 py-3 m-2' style={{fontWeight:'600', backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Skills</a>
             <a href='#timeline' className='px-5 py-3 m-2' style={{fontWeight:'600', backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Experiences</a>
             <a href='#projects' className='px-5 py-3 m-2' style={{fontWeight:'600',backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Projects</a>
             <a href = 'https://drive.google.com/file/d/199bXZBSUzrJoZihgZhrs5nL3mnF9YlGm/view?usp=sharing' target="_blank" rel="noreferrer" className='px-5 py-3 m-2' style={{fontWeight:'600',backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Resume</a>
+            <a href = 'https://drive.google.com/file/d/1RBfTLj4Qa2Hnuf8JtQeBjvqp9nqhzfZI/view?usp=sharing' target="_blank" rel="noreferrer" className='px-5 py-3 m-2' style={{fontWeight:'600',backgroundColor: "whitesmoke", borderRadius: '3px', textDecoration: 'none', color: 'black', boxShadow: "0px 0px 4px black"}}>Thesis</a>
           </div>
         </div>
       </div>

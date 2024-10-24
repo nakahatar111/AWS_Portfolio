@@ -90,7 +90,7 @@ function About() {
         </div>
         <div style={{fontFamily:'Trebuchet MS', maxWidth:'700px'}}>
           <p style={{fontWeight:'550', fontSize:'26px', margin:'0px'}}>Ryuma Nakahata</p>
-          <p style={{fontWeight:'550', fontSize:'20px', marginBottom:'2px'}}>Machine Learning Research Assistant, Aspiring Software/Machine Learning Engineer</p>
+          <p style={{fontWeight:'550', fontSize:'20px', marginBottom:'2px'}}>Machine Learning Engineer at Virufy</p>
           <p style={{fontWeight:'lighter', fontSize:'16px', marginBottom:'4px'}}>
             I'm a recent Binghamton University graduate with a strong passion for Artificial Intelligence, Computer Science, and Mathematics.
           </p>
@@ -104,7 +104,6 @@ function About() {
             <p style={{fontSize: '14px', marginBottom:'0px'}}>June 2023 - May 2024</p>
             <p style={{fontSize:'15px', marginBottom:'0px'}}>
               <B>GPA:</B> 3.97/4.00 <br/>
-              <B>Dean's List:</B> Fall 2023 - Spring 2024<br/>
               <B>Awards:</B></p>
             <p style={{fontSize:'15px', marginLeft:'6px'}}>
               - Academic Excellence in Computer Science<br/>
